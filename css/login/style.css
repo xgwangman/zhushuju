@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: microsoft yahei FontAwesome;
+}
+.hm-header {
+	height: 70px;
+	background: #253951;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.hm-logo {
+	padding: 30px;
+	font-size: 30px;
+	color: #fff;
+	display: inline-block;
+}
+a.hm-link {
+	margin-top: 40px;
+	color: rgba(255,255,255,.5);
+	font-size: 26px;
+	position: relative;
+	display: inline-block;
+	margin-right:30px;
+}
+.hm-msg-red:before {
+	background: #cb4c4f;
+	content: attr(data-title);
+	position: absolute;
+	right: -6px;
+	top: -7px;
+	width: 18px;
+	height: 18px;
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 16px;
+	color: #fff;
+	font-size: 12px;
+}
+.hm-msg-yel:before {
+	background: #ef9d00;
+	content: attr(data-title);
+	position: absolute;
+	right: -11px;
+	top: -7px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	font-size: 12px;
+}
+a.hm-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+a.hm-link:focus {
+	text-decoration: none;
+	outline:none;
+}
+.hm-logo>img {
+	margin-right: 15px;
+}
+.hm-left-box {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:  280px;
+	background: #364050;
+	height: 100%;
+}
+.hm-right-box {
+	padding-left: 280px;
+}
+.hm-menu, .hm-menu-son {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.hm-menu li {
+	margin: 0;
+	padding: 0px 22px;
+}
+.hm-menu>li>a {
+	color: #fff;
+	font-size: 14px;
+	padding: 20px 10px;
+	display: block;
+	border-top: 2px solid #30465d
+}
+.hm-menu>li>a>i {
+	width: 30px;
+	display: inline-block;
+}
+.hm-menu>li a:hover, .hm-menu>li a:focus {
+	text-decoration: none;
+}
+.hm-menu>li+li>a {
+	border-top: 2px solid #344c66
+}
+.hm-menu>li:hover, .hm-menu>li.active {
+	background: #1e3046;
+	cursor: pointer;
+}
+.hm-menu>li:hover>a, .hm-menu>li.active>a {
+	border-top: 2px solid #1e3046
+}
+.hm-menu>li>a>small {
+	margin-top: 5px;
+}
+.hm-menu>li.active>a>small>i.icon-caret-right::before {
+	content: "\f0d7";
+	color: #00b8ac;
+}
+.hm-menu-son {
+	margin-left: -60px!important;
+	margin-right: -22px!important;
+	left: 22px!important;
+}
+.hm-menu-son>li {
+	padding: 0!important;
+}
+.hm-menu-son>li>a {
+	display: block;
+	padding: 20px 10px 20px 80px!important;
+	font-size: 14px!important;
+	background: #1e3046;
+	color: #fff!important;
+	border-left: 5px solid #142438!important
+}
+.hm-menu-son>li>a>i {
+	width: 25px;
+	display: inline-block;
+}
+.hm-menu-son>li>a:hover, .hm-menu-son>li>a.active {
+	border-left: 5px solid #00b8ac !important;
+	background: #142438!important;
+}

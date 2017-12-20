@@ -1,0 +1,10 @@
+.title{
+   margin: 10px 0 10px 0;
+}
+.titleFontSize{
+    font-size: 24px;
+    font-weight: normal;
+}
+.boreder{
+    border: dashed 1px #1096de;
+}

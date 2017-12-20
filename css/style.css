@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot');
+    src: url('fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    /*line-height: 1;*/
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-init:before {
+    content: "\1f384";
+    opacity: 1;
+    font-size: 90%;
+    position: absolute;
+    margin-left: -20px;
+    margin-right: 08px;
+    top: 20%;
+}
+/* CYY   rgb(55, 195, 176) */
+.ant-switch-checked{
+    border-color:rgb(55, 195, 176);
+    background-color:rgb(55, 195, 176);
+}
+/*pagination*/
+.ant-pagination-item-active {
+    border-color:rgb(55, 195, 176);
+    background-color:rgb(55, 195, 176);
+}
+.ant-pagination-item:focus,
+.ant-pagination-item:hover {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-color: rgb(55, 195, 176);
+}
+.ant-pagination-item:focus a,
+.ant-pagination-item:hover a {
+    color:#000;
+}
+.ant-pagination-item-active {
+    background-color:rgb(55, 195, 176);
+    border-color: rgb(55, 195, 176);
+}
+.ant-pagination-item-active:focus,
+.ant-pagination-item-active:hover {
+    background-color:rgb(55, 195, 176);
+    border-color:rgb(55, 195, 176);
+}
+.ant-pagination-options-quick-jumper input:hover {
+    border-color:rgb(55, 195, 176);
+}
+.ant-pagination-options-quick-jumper input:focus {
+    border-color:rgb(55, 195, 176);
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(16, 142, 233, 0.2);
+}
+/*checkbox*/
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color:rgb(55, 195, 176);
+}
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+    background-color:rgb(55, 195, 176);
+    border-color:rgb(55, 195, 176);
+}
+a {
+    color:rgb(55, 195, 176);
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+.gilight_rp{
+    top: -12px;
+}
+.btn-css {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color:#fff;
+    background-color: rgb(55, 195, 176);
+    border-color: rgb(55, 195, 176);
+    margin:0 0 20px 0;
+}
+.btn-css-del {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color:#fff;
+    background-color: #EEAD0E;
+    border-color: #EEAD0E;
+    margin:0 0 20px 10px;
+}
+.btn-css-share {
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color:#fff;
+    background: url(../images/server.svg)center center no-repeat;
+    margin:0 0 4px 0;
+}
+.medStyle {
+    display: inline-block;
+}
+.table-dele {
+    font-size: 25px;
+    color: #eeb57e;
+    margin: 0;
+    cursor: pointer;
+}
+.table-edit {
+    font-size: 25px;
+    color: rgb(55, 195, 176);
+    margin: 0;
+    cursor: pointer;
+}
+.table-desktop {
+    font-size: 25px;
+    color: rgb(55, 195, 176);
+    margin: 0;
+    cursor: pointer;
+}
+.down-edit {
+    font-size: 25px;
+    color: rgb(55, 195, 176);
+    margin: 0;
+    cursor: pointer
+}
+.upload-edit {
+    font-size: 25px;
+    color: rgb(55, 195, 176);
+    margin: 0;
+    cursor: pointer
+}
+.downEdit {
+    font-size: 25px;
+    color: #AEAEAE;
+    margin: 0;
+    cursor: not-allowed;
+}
+.uploadEdit {
+    font-size: 25px;
+    color: #AEAEAE;
+    margin: 0;
+    cursor: not-allowed;
+}
+/*modal*/
+.modal-dele {
+    font-size: 25px;
+    color: #eeb57e;
+    margin: 0;
+    cursor: pointer;
+}
+.modal-edit {
+    font-size: 25px;
+    color: rgb(55, 195, 176);
+    margin: 0;
+    cursor: pointer;
+}

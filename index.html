@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./dist/bundle.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.contextMenu.css" />
+    <title>主数据</title>
+</head>
+
+<body id="body">
+<div id="mount"></div>
+<SCRIPT src="./dependjs/jquery-1.12.0.min.js"></SCRIPT>
+<SCRIPT src="./dependjs/jquery-ui-1.8.23.custom.min.js"></SCRIPT>
+<SCRIPT src="./dependjs/jquery.easyui.min.js"></SCRIPT>
+<SCRIPT src="./dependjs/shifty.js"></SCRIPT>
+<SCRIPT src="./dependjs/raphael.js"></SCRIPT>
+<SCRIPT src="./dependjs/jquery.autoresize.js"></SCRIPT>
+<SCRIPT src="./dependjs/jquery-touch_punch.js"></SCRIPT>
+<SCRIPT src="./dependjs/jquery.contextMenu.js"></SCRIPT>
+<SCRIPT src="./dependjs/rgbcolor.js"></SCRIPT>
+<SCRIPT src="./dependjs/canvg.js"></SCRIPT>
+<SCRIPT src="./dependjs/Class.js"></SCRIPT>
+<SCRIPT src="./dependjs/json2.js"></SCRIPT>
+<SCRIPT src="./dependjs/pathfinding-browser.min.js"></SCRIPT>
+<SCRIPT src="./dependjs/draw2dmin.js"></SCRIPT>
+<SCRIPT src="./dependjs/jquery.contextMenu.js"></SCRIPT>
+<script type="text/javascript" src="./dist/vendor.js"></script>
+<script type="text/javascript" src="./dist/bundle.js"></script>
+
+<script type="text/javascript">
+    window.onload = function(){
+        window.onbeforeunload=function (){
+            if(event.clientX>document.body.clientWidth && event.clientY < 0 || event.altKey){
+                window.localStorage.setItem("isAuth",false)
+            }else{
+                console.log("你正在刷新页面");
+            }
+        };
+        window.onunload=function (){
+            if(event.clientX>document.body.clientWidth && event.clientY < 0 || event.altKey){
+                window.localStorage.setItem("isAuth",false)
+            }else{
+                console.log("asdfasdf");
+            }
+        };
+        var currentUserName = 'admin';
+        var requestPath = '/main';
+        masterData.renderApp(requestPath);
+        }
+</script>
+</body>
+</html>

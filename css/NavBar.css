@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+    height: 100%;
+}
+
+.xp-tp {
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #28605F;
+}
+
+.xp-tp > li {
+    list-style: none;
+    border-bottom: 1px solid #81ADAE;
+}
+
+.xp-tp > li > a.tp1 {
+    background: center center no-repeat;
+}
+
+.xp-tp > li > a.tp2 {
+    background: center center no-repeat;
+}
+
+.xp-tp > li > a {
+    padding: 20px 0px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.xp-tp > li.active > a {
+    background-color: #02A4D2;
+}
+
+.xp-cont {
+    padding-left: 70px;
+}
+
+.secondMenu {
+    position: absolute;
+    border: 1px #b6b6b6 solid;
+    border-left: 0px #b6b6b6 solid;
+    background: #fff;
+    width: 120px;
+    z-index: 10;
+    font-size: 12px;
+    height: auto;
+    -moz-box-shadow: 2px 2px 4px #bcbcbc;
+    -webkit-box-shadow: 2px 2px 4px #bcbcbc;
+    box-shadow: 2px 2px 4px #bcbcbc;
+    display: none;
+    list-style: none;
+    top: 485px;
+    left: 61px;
+    padding: 10px 0;
+}
+.second_menu_item {
+    display: block;
+    width: 120px;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.iStyle{
+    margin: 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

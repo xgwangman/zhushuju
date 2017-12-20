@@ -1,0 +1,13 @@
+require('./shifty.js');
+require('./raphael.js');
+require('./jquery.autoresize.js');
+require("./jquery-touch_punch.js");
+require("./jquery.contextmenu.js");
+require("./rgbcolor.js");
+require("./canvg.js");
+require("./Class.js");
+require("./json2.js");
+require("./pathfinding-browser.min.js");
+require("./draw2dmin.js");
+require("./jquery.contextMenu.js");
+require('./jquery-ui-1.8.23.custom.min.js');

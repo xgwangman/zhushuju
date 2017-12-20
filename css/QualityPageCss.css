@@ -1,0 +1,29 @@
+.form-text {
+    position: absolute;
+    right: -90px;
+    top: 0px;
+}
+.monitor_column {
+    height: 50px;
+    margin: 25px 0;
+    line-height:50px;
+    font-size:18px;
+    font-weight: bold;
+    color: #37c3b0;
+    text-align: center;
+    border-bottom: 1px dashed #37c3b0;
+}
+.monitor_column_left {
+    height: 50px;
+    line-height:50px;
+    font-size:18px;
+    font-weight: bold;
+    color: #37c3b0;
+    text-align: left;
+    border-bottom: 1px dashed #37c3b0;
+   margin: 0 0 20px 10px;
+}
+.downOpt {
+    position: relative;
+    top: 30px;
+}

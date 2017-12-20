@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+    height: 100%;
+}
+
+.xp-header {
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background: #364150;
+    top: 0;
+    left: 0;
+}
+.xp-header  .ant-breadcrumb{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0;
+    //padding-bottom: 3px;
+}
+/*antd 样式修改开始*/
+.ant-breadcrumb{
+    position: absolute;
+    top: 70px;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+    background-color: #36c7d3 !important;
+}
+.ant-menu-dark{
+    background: #364150 !important;
+}
+.ant-menu-dark .ant-menu-sub{
+    background: #262e38 !important;
+}
+.ant-breadcrumb a{
+   /* color: #fff !important;*/
+}
+.ant-breadcrumb-separator{
+    color: #262e38 !important;
+}
+.ant-breadcrumb-link{
+   /* color: #fff !important;*/
+}
+/*中间内容部分*/
+.centerContent {
+    margin-top: 60px;
+    padding:10px 20px;
+    border-top:1px solid #ccc;
+}
+.centerContent .tableMargin{
+    margin-top: 0;
+}
+/*antd 样式修改开始*/
+.ret {
+    position: relative;
+}
+.hr {
+    margin: 0;
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.hr-sh {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px dashed #b8b8b8;
+}
+.xp-search {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    border: 1px solid #b8b8b8;
+    border-radius: 25px;
+    width: 310px;
+    height: 36px;
+    padding-left: 20px;
+}
+.xp-search>input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    height: 34px;
+    color: #fff;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+}
+.xp-search>input:focus{ outline:none;}
+.xp-search>span {
+    background: url(../images/search.png) right center no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-left: 1px solid #b8b8b8;
+    cursor: pointer;
+    margin-top: 5px;
+    padding-left: 35px;
+    margin-right: 18px;
+}
